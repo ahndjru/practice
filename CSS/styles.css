@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 1.5em;
+  }
+
+
+h1 {
+margin: 40px auto 0 auto;
+font-family: 'Lobster', cursive;
+/* rem for sizing for fonts means to ignore the parent's font size and just does its own */
+font-size: 5.625rem;
+color: #990000;
+line-height: 5;
+}
+
+h2 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #52734D;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  color: #446A46;
+}
+
+p {
+  margin-top: 60px;
+  margin-bottom: 0;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Libre Franklin', sans-serif;
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #E7AB79;
+  position: relative;
+  padding-top: 100px;
+}
+
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-bottom-style: none;
+  border-color: brown;
+  border-width: 5px;
+  width: 5%;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.myself {
+  width: 30%;
+  margin: auto;
+}
+
+
+.andrew {
+  width: 200px;
+  height: 200px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+
+  position: absolute;
+  left: 700px;
+  top: 100px;
+}
+
+.middle-cloud {
+
+  position: absolute;
+  top: 500px;
+  right: 500px;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 500px;
+  bottom: 300px;
+}
+
+.jerry {
+width: 25%;
+float: right;
+padding-left: 30px;
+
+}
+
+.skill {
+  float: left;
+  width: 25%;
+  padding-right: 30px;
+}
+
+.bottom-container {
+background-color: #E8C07D;
+padding: 50px 0 20px;
+}
+
+.twitter {
+  display: inline-block;
+  position: relative;
+  right: 25px;
+
+}
+
+.linkedin {
+  display: inline-block;
+  position: relative;
+  top: 20px;
+
+}
+
+.john {
+  display: inline-block;
+  position: relative;
+  right: 25px;
+
+}
+
+.trademark {
+position: relative;
+  padding-top: 70px;
+  left: 20px;
+  text-decoration: underline;
+
+}
+
+.contact-me {
+  margin: 100px;
+}
+
+.copyright {
+  font-size: 1rem;
+  padding: 20px 0;
+  color; #470D21
+}
+
+a {
+color: #614124;
+margin: 100px;
+text-decoration: none;
+}
+
+a:hover {
+color: #CC704B;
+
+}
+
+
+.contact-msg {
+
+  width: 50%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.btn {
+  background: #E7AB79;
+  background-image: -webkit-linear-gradient(top, #E7AB79, #9e6537);
+  background-image: -moz-linear-gradient(top, #E7AB79, #9e6537);
+  background-image: -ms-linear-gradient(top, #E7AB79, #9e6537);
+  background-image: -o-linear-gradient(top, #E7AB79, #9e6537);
+  background-image: linear-gradient(to bottom, #E7AB79, #9e6537);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f7c399;
+  background-image: -webkit-linear-gradient(top, #f7c399, #c4936e);
+  background-image: -moz-linear-gradient(top, #f7c399, #c4936e);
+  background-image: -ms-linear-gradient(top, #f7c399, #c4936e);
+  background-image: -o-linear-gradient(top, #f7c399, #c4936e);
+  background-image: linear-gradient(to bottom, #f7c399, #c4936e);
+  text-decoration: none;
